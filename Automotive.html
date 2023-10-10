@@ -15,7 +15,7 @@
 
 
 tw-story {	
-	background-color: #342D2D; 
+	background-color: #342D2D;
 	
 	color: #FEE6DA;
 	
@@ -39,7 +39,6 @@ tw-sidebar {
 	
 	border-radius: 10px;
 
-	 
 }
 
 
@@ -96,7 +95,7 @@ img.full-width {
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
   tw-story {
-	  font-size: 1.8em;
+	  font-size: 1.5em;
 	  width: 100%;
 	  max-width: 95%;
 	  margin: 0 auto 0 auto;
@@ -113,7 +112,7 @@ img.full-width {
 @media only screen and (max-device-width: 480px) {
 
   tw-story {
-	  font-size: 2em;
+	  font-size: 1.8em;
 	  width: 100%;
 	  max-width: 95%;
 	  margin: 0 auto 0 auto;
@@ -148,7 +147,9 @@ The manager decided to send the safety memo but wants to redesign the ignition s
 Production is stopped and the new car launch delayed. Since you know the issue well, the CEO wants you to write a technical bulletin for the shareholders about the reason for the stop of production and launch delay. Your manager suggests deflecting some of the blame to the ignition switch supplier for not making the part to original specifications even though the senior engineer agreed to accept the lower specification parts. Otherwise, the blame will go to the senior engineer, who will be fired. What do you write?
 
 1 [[Write an objective report stating the facts without concern for blame. -&gt;2E]]
-2 [[Modify your report, deflecting some blame and saving the senior engineer’s career. -&gt;4D]]</tw-passagedata><tw-passagedata pid="5" name="1E" tags="" position="150,600" size="100,100">The manager wants you to work quickly with the senior engineer to fix the problem on the next lot of cars. You find that the ignition switch can be redesigned at a cost of $0.90 per car. The senior engineer wants to keep the part number the same between the old and new switches to avoid confusion and to speed up the paperwork process, given that this is only a minor change. The senior engineer says it will also keep people from overblowing the minor issue. What should you do?
+2 [[Modify your report, deflecting some blame and saving the senior engineer’s career. -&gt;4D]]</tw-passagedata><tw-passagedata pid="5" name="1E" tags="" position="150,600" size="100,100">&#39;&#39;Decision&#39;&#39;
+
+The manager wants you to work quickly with the senior engineer to fix the problem on the next lot of cars. You find that the ignition switch can be redesigned at a cost of $0.90 per car. The senior engineer wants to keep the part number the same between the old and new switches to avoid confusion and to speed up the paperwork process, given that this is only a minor change. The senior engineer says it will also keep people from overblowing the minor issue. What should you do?
 
 1 [[Fix the problem by changing the part for the next lot of cars and keep the part number the same.  Total cost $200,000. -&gt;6C]]
 2 [[Fix the problem by changing the part for the next lot of cars. and change the part number. Total cost $200,000 and ~3 months delay due to paperwork. -&gt;2B]]
@@ -156,7 +157,7 @@ Production is stopped and the new car launch delayed. Since you know the issue w
 
 You talk to the service technician and point out how important this testing is and what it could mean to the technician’s career. You stress that the technician should retest very carefully before bringing the results to you.
 
-To see the results of the test, (either: &#39;[[click here. -&gt;4C]]&#39;,&#39;[[click here. -&gt;3D]]&#39;,&#39;[[click here. -&gt;3D]]&#39;)</tw-passagedata><tw-passagedata pid="7" name="2B" tags="" position="275,300" size="100,100">&#39;&#39;Decision&#39;&#39;
+To see the results of the test, (seed:(string:$seed))(either: &#39;[[click here. -&gt;4C]]&#39;,&#39;[[click here. -&gt;3D]]&#39;,&#39;[[click here. -&gt;3D]]&#39;)</tw-passagedata><tw-passagedata pid="7" name="2B" tags="" position="275,300" size="100,100">&#39;&#39;Decision&#39;&#39;
 
 The redesigned ignition switch was implemented which fixed the problem on the next lot of cars. The part number was changed to help maintain records of the changes.  In the meantime, there have been reports of 13 more crashes (four more fatalities) and the National Highway Traffic Safety Administration (NHTSA) is looking into it. The manager says not to talk to anyone unless directly asked about the ignition switch change. The manager says it is not certain that the ignition switch is the cause and everyone in the division will be fired including you if it is determined to be. What should you do?
 
@@ -174,15 +175,15 @@ You email the CEO Mary Barra and let her know about the ignition switch possibly
 
 This could have been an outcome of the GM ignition switch scandal. You made similar decisions to the real engineers in the case. To read what really happened in this case [[click here. -&gt;9]]</tw-passagedata><tw-passagedata pid="10" name="2E" tags="" position="275,600" size="100,100">&#39;&#39;Outside Influence (random event)&#39;&#39;
 
-You write an objective factual technical bulletin detailing how in final product testing a potentially dangerous error was found and how production was immediately stopped to err on the side of consumer safety. GM accepts responsibility for the near-miss and begins using this as a training incident. The senior engineer is demoted for his roll in approving the defective ignition switches.
+You write an objective factual technical bulletin detailing how in final product testing a potentially dangerous error was found and how production was immediately stopped to err on the side of consumer safety. GM accepts responsibility for the near-miss and begins using this as a training incident. The senior engineer is demoted for his role in approving the defective ignition switches.
 
-(either: &#39;[[Click here to see how the supplier responds. -&gt;3E]]&#39;,&#39;[[Click here to see how the supplier responds. -&gt;4E]]&#39;,&#39;[[Click here to see how the supplier responds. -&gt;4E]]&#39;)</tw-passagedata><tw-passagedata pid="11" name="3A" tags="" position="400,200" size="100,100">&#39;&#39;Outside Influence (random event)&#39;&#39;
+(seed:(string:$seed))(either: &#39;[[Click here to see how the supplier responds. -&gt;3E]]&#39;,&#39;[[Click here to see how the supplier responds. -&gt;4E]]&#39;,&#39;[[Click here to see how the supplier responds. -&gt;4E]]&#39;)</tw-passagedata><tw-passagedata pid="11" name="3A" tags="" position="400,200" size="100,100">&#39;&#39;Outside Influence (random event)&#39;&#39;
 
 You use the whistleblower policy and write the CEO of the potential problem. The CEO thanks you but wonders why you did not pass the information up the regular chain of command. The CEO assigns your manager to investigate it. Your manager is furious with you for going over their head but cannot fire you due to whistleblowing protections. 
 
 You investigate and find that the ignition switch turns the car from run mode to accessory mode if the key chain is too heavy or jostled just right. This means power to the engine/power steering/brakes/safety devices (such as airbags) is immediately cut. The senior engineer noted this unlikely scenario and planned to send a safety memo out to all car dealerships to prevent people from having overly heavy key rings. At this point it will cost $0.90 / per car (a $400,000 fix) to install the safer redesigned ignition switches and a one year delay to launch. You inform your manager. 
 
-Your manager (either: &#39;[[sends out the memo but does not initiate the change to the new switches. -&gt;1B]]&#39;, &#39;[[sends out the memo and initiates the change to the new switches. -&gt;1C]]&#39;, &#39;[[sends out the memo and initiates the change to the new switches. -&gt;1C]]&#39;, &#39;[[delays production. -&gt;1D]]&#39;, &#39;[[delays production. -&gt;1D]]&#39;)</tw-passagedata><tw-passagedata pid="12" name="3B" tags="" position="400,300" size="100,100">&#39;&#39;Outcome&#39;&#39;
+Your manager (seed:(string:$seed))(either: &#39;[[sends out the memo but does not initiate the change to the new switches. -&gt;1B]]&#39;, &#39;[[sends out the memo and initiates the change to the new switches. -&gt;1C]]&#39;, &#39;[[sends out the memo and initiates the change to the new switches. -&gt;1C]]&#39;, &#39;[[delays production. -&gt;1D]]&#39;, &#39;[[delays production. -&gt;1D]]&#39;)</tw-passagedata><tw-passagedata pid="12" name="3B" tags="" position="400,300" size="100,100">&#39;&#39;Outcome&#39;&#39;
 
 You email the CEO, Mary Barra, and let her know about the ignition switch possibly causing the accidents. She immediately issues an internal investigation which concludes that the ignition switch caused the fatal and non-fatal crashes. A massive recall begins on all cars made before the ignition switch was redesigned. Each car must undergo a $10 per car repair to replace the faulty ignition switch. The faulty ignition switch is to blame for at least 15 crashes and 8 deaths. GM must pay a $35 million-dollar civil penalty and $1 billion in recall related expenses.  The CEO fires your manager and the senior engineer. You must testify before congress about your decisions and role in this scandal. Your whistleblower status protects your job, but your reputation is partially damaged due to your involvement in the issue.
 
@@ -206,7 +207,7 @@ This is a possible outcome of the GM ignition switch scandal if the engineers ha
 
 You inform the manager of the faulty test.  The manager tells you that you can’t ignore the test but acknowledges the technician’s previous bad history. The manager&#39;s decision is as follows:
 
-(either: &#39;[[The manager tells you to have the technician retest. -&gt;2A]]&#39;,&#39;[[The manager tells you to conduct a retest. -&gt;5A]]&#39;,&#39;[[The manager tells you to conduct a retest. -&gt;5A]]&#39;)</tw-passagedata><tw-passagedata pid="17" name="4B" tags="" position="525,300" size="100,100">&#39;&#39;Outcome&#39;&#39;
+(seed:(string:$seed))(either: &#39;[[The manager tells you to have the technician retest. -&gt;2A]]&#39;,&#39;[[The manager tells you to conduct a retest. -&gt;5A]]&#39;,&#39;[[The manager tells you to conduct a retest. -&gt;5A]]&#39;)</tw-passagedata><tw-passagedata pid="17" name="4B" tags="" position="525,300" size="100,100">&#39;&#39;Outcome&#39;&#39;
 
 The faulty ignition switch is to blame for at least 10 crashes and 1 deaths. GM must pay a $5 million-dollar civil penalty and $3 million in recall related expenses. The CEO fires your manager and the senior engineer. 
 
@@ -232,7 +233,7 @@ This is a possible outcome of the GM ignition switch scandal if the engineers ha
 
 You know how important this project is and decide to investigate the failure yourself. You attempt to replicate the test.
 
-(either: &#39;[[Click here to see the outcome of your test. -&gt;4C]]&#39;, &#39;[[Click here to see the outcome of your test. -&gt;3D]]&#39;)</tw-passagedata><tw-passagedata pid="22" name="5B" tags="" position="675,300" size="100,100">&#39;&#39;Outcome&#39;&#39;
+(seed:(string:$seed))(either: &#39;[[Click here to see the outcome of your test. -&gt;4C]]&#39;, &#39;[[Click here to see the outcome of your test. -&gt;3D]]&#39;)</tw-passagedata><tw-passagedata pid="22" name="5B" tags="" position="675,300" size="100,100">&#39;&#39;Outcome&#39;&#39;
 
 The faulty ignition switch is to blame for at least 10 crashes and 1 deaths. GM must pay a $5 million-dollar civil penalty and $5 million in recall related expenses. The CEO fires your manager and the senior engineer. 
 
@@ -276,17 +277,17 @@ The National Highway Traffic Safety Administration (NHTSA) quickly realizes ther
 
 This could have been an outcome of the GM ignition switch scandal. You made similar decisions to the real engineers in the case. To read what really happened in this case, [[click here. -&gt;9]]</tw-passagedata><tw-passagedata pid="30" name="6E" tags="" position="825,600" size="100,100">&#39;&#39;Outcome&#39;&#39;
 
-You use the whistleblower policy and write the CEO of the potential problem.  The CEO thanks you but wonders why you did not pass the information up the regular chain of command. The CEO insists that you stop production immediately and assigns your manager to investigate. Your manager is furious with you for going over their head but cannot fire you due to whistleblower protections. [[Click here to see what follows. -&gt;1D]]</tw-passagedata><tw-passagedata pid="31" name="7A" tags="" position="1000,200" size="100,100">&#39;&#39;Outside Influence (random event)&#39;&#39;
+You use the whistleblower policy and write the CEO of the potential problem.  The CEO thanks you but wonders why you did not pass the information up the regular chain of command. The CEO insists that you stop production immediately and assigns your manager to investigate. Your manager is furious with you for going over their head but cannot fire you due to whistleblower protections. [[Click here to see what follows. -&gt;1D]]</tw-passagedata><tw-passagedata pid="31" name="7A" tags="" position="1000,550" size="100,100">&#39;&#39;Outside Influence (random event)&#39;&#39;
 
 You speak to the manager about your suspicions that the fatal crash is related to the ignition switch.  Your manger&#39;s decision is as follows:
 
-&#39;&#39;(either: &#39;[[The manager tells you that the senior engineer will investigate it. -&gt;6A]]&#39;, &#39;[[The manager tells you to investigate the problem with the senior engineer. -&gt;1E]]&#39;)&#39;&#39;</tw-passagedata><tw-passagedata pid="32" name="7B" tags="" position="1000,300" size="100,100">&#39;&#39;Outside Influence (random event)&#39;&#39;
+&#39;&#39;(seed:(string:$seed))(either: &#39;[[The manager tells you that the senior engineer will investigate it. -&gt;6A]]&#39;, &#39;[[The manager tells you to investigate the problem with the senior engineer. -&gt;1E]]&#39;)&#39;&#39;</tw-passagedata><tw-passagedata pid="32" name="7B" tags="" position="1000,300" size="100,100">&#39;&#39;Outside Influence (random event)&#39;&#39;
 
 You give your recommendations and support to your manager. The manager will take care of it and puts you on another job. If you contacted the CEO, [[click here. -&gt;6E]]
 
 Otherwise, your manager&#39;s next actions are as follows:
 
-(either: &#39;[[Your manager sends out the memo but does not initiate the change of ignition switches.-&gt;1B]]&#39;, &#39;[[Your manager sends out the memo and initiates the change of ignition switches. -&gt;1C]]&#39;, &#39;[[Your manager delays production. -&gt;1D]]&#39;, &#39;Your manager goes with your recommendation.  Click the appropriate choice:
+(seed:(string:$seed))(either: &#39;[[Your manager sends out the memo but does not initiate the change of ignition switches.-&gt;1B]]&#39;, &#39;[[Your manager sends out the memo and initiates the change of ignition switches. -&gt;1C]]&#39;, &#39;[[Your manager delays production. -&gt;1D]]&#39;, &#39;Your manager goes with your recommendation.  Click the appropriate choice:
 [[1 The manager should send out the memo but not initiate any further changes. -&gt;1B]]
 [[2 The manager should send out the memo and initiate the change in ignition switches. -&gt;1C]]
 [[3 The manager should delay production. -&gt;1D]]&#39;, &#39;Your manager goes with your recommendation.  Click the appropriate choice:
@@ -338,15 +339,33 @@ Fiegel, J., &amp; Rundlett, B., &amp; Bradley, A. A., &amp; Murhammer, K. R. (20
 &#39;&#39;Further Reading:&#39;&#39;
 Wanasika, I., Conner, Suzanne; “General Motors: The ignition switch from hell”  J. of Case Studies Nov. 2018 Vol. 36
 
-Valikas, A. R.; “Report to Board of Directors of General Motors Company Regarding Ignition Switch Recalls.” Jenner &amp; Block May 2014 https://www.aieg.com/wp-content/uploads/2014/08/Valukas-report-on-gm-redacted2.pdf 
+Valikas, A. R.; “Report to Board of Directors of General Motors Company Regarding Ignition Switch Recalls.” Jenner &amp; Block May 2014 (link:&quot;https://www.aieg.com/wp-content/uploads/2014/08/Valukas-report-on-gm-redacted2.pdf&quot;)[(gotoURL:&quot;https://www.aieg.com/wp-content/uploads/2014/08/Valukas-report-on-gm-redacted2.pdf&quot;)]
 
-Basu, T.; “Timeline: A history of GN’s Ignition Switch Defect” NPR Mar. 2014 https://www.npr.org/2014/03/31/297158876/timeline-a-history-of-gms-ignition-switch-defect 
+Basu, T.; “Timeline: A history of GN’s Ignition Switch Defect” NPR Mar. 2014 (link:&quot;https://www.npr.org/2014/03/31/297158876/timeline-a-history-of-gms-ignition-switch-defect&quot;)[(gotoURL:&quot;https://www.npr.org/2014/03/31/297158876/timeline-a-history-of-gms-ignition-switch-defect&quot;)]
 
-Valdes-Dapena, P., Yellin, T.; “GM: Steps to a recall nightmare” CNN Money https://money.cnn.com/infographic/pf/autos/gm-recall-timeline/index.html 
+Valdes-Dapena, P., Yellin, T.; “GM: Steps to a recall nightmare” CNN Money (link:&quot;https://money.cnn.com/infographic/pf/autos/gm-recall-timeline/index.html&quot;)[(gotoURL:&quot;https://money.cnn.com/infographic/pf/autos/gm-recall-timeline/index.html&quot;)]
 
-Blau, Max “No Accident: Inside GM’s deadly ignition switch scandal” Atlanta Jan. 2016 https://www.atlantamagazine.com/great-reads/no-accident-inside-gms-deadly-ignition-switch-scandal/ 
+Blau, Max “No Accident: Inside GM’s deadly ignition switch scandal” Atlanta Jan. 2016 (link:&quot;https://www.atlantamagazine.com/great-reads/no-accident-inside-gms-deadly-ignition-switch-scandal/&quot;)[(gotoURL:&quot;https://www.atlantamagazine.com/great-reads/no-accident-inside-gms-deadly-ignition-switch-scandal/&quot;)]
 
-Gardella, Rich, Reynolds, Talesha; “Did GM Reject Safer Ignition Switch Design in 2001 Because of Cost?” NBC News April 2014 https://www.nbcnews.com/storyline/gm-recall/did-gm-reject-safer-ignition-switch-design-2001-because-cost-n81526</tw-passagedata><tw-passagedata pid="40" name="Start" tags="" position="175,75" size="100,100">You are an engineer working at a large automotive manufacturer. Your manager has asked you to fill in for a senior design engineer while he takes vacation. He is working on the final pre-production testing and launch of a new car. This is a multi-million-dollar project. It is also your chance to prove yourself capable in leading these large projects if you can launch without delay or cost overages. The company has a whistleblower policy which means that you can contact the CEO at any point to report unethical behavior or safety issues.
+Gardella, Rich, Reynolds, Talesha; “Did GM Reject Safer Ignition Switch Design in 2001 Because of Cost?” NBC News April 2014 (link:&quot;https://www.nbcnews.com/storyline/gm-recall/did-gm-reject-safer-ignition-switch-design-2001-because-cost-n81526&quot;)[(gotoURL:&quot;https://www.nbcnews.com/storyline/gm-recall/did-gm-reject-safer-ignition-switch-design-2001-because-cost-n81526&quot;)]</tw-passagedata><tw-passagedata pid="40" name="Start" tags="" position="150,0" size="100,100">Welcome!  This is a choose your own adventure activity for engineering ethics students.  In what follows, you will be asked to make decisions in response to information and events that are not always under your full control.
+
+The behavior of &quot;the world&quot; in this game is largely determined randomly, though some outcomes are more common than others.  If you are playing with a group across multiple devices, you may want to enter a seed so that you can collectively experience the same outcomes in response to your group&#39;s choices.
+
+(link: &quot;Click here to begin.&quot;)[
+	[(set: $seed to (random: 1, 100000))]
+    (goto: &quot;Beginning&quot;)
+]
+
+(link: &quot;Click here to set a seed.&quot;)[
+  (set: $seedText to (prompt: &quot;Enter a seed or leave blank for random outcomes&quot;, &quot;&quot;))
+  (if: $seedText is &quot;&quot;)[(set: $seed to (random: 1, 10000))
+]
+(else: )[
+	(set: $seed to $seedText)
+    ]
+  (goto: &quot;Beginning&quot;)
+]
+</tw-passagedata><tw-passagedata pid="41" name="Beginning" tags="" position="375,0" size="100,100">You are an engineer working at a large automotive manufacturer. Your manager has asked you to fill in for a senior design engineer while he takes vacation. He is working on the final pre-production testing and launch of a new car. This is a multi-million-dollar project. It is also your chance to prove yourself capable in leading these large projects if you can launch without delay or cost overages. The company has a whistleblower policy which means that you can contact the CEO at any point to report unethical behavior or safety issues.
 
 During the final stage of pre-production testing, a service technician reports that a car stopped running during a final driving test because of trouble with the ignition switch. This technician has a history of sloppy testing techniques and causing problems. You know if he makes another mistake, he will be fired. What is your next step?
 
@@ -354,7 +373,8 @@ During the final stage of pre-production testing, a service technician reports t
 2 [[Allow the technician to run the test again. -&gt;2A]]
 3 [[Investigate the failure yourself. -&gt;5A]]
 4 [[Inform your manager of the situation. -&gt;4A]]
-5 [[Use the whistleblower policy to directly contact the CEO. -&gt;3A]]</tw-passagedata></tw-storydata>
+5 [[Use the whistleblower policy to directly contact the CEO. -&gt;3A]]
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
